@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "com.github.adilevin.hello_world";
+option java_outer_classname = "HelloWorldProto";
+
+package hello_world;
+
+message GreetingRequest {
+    string name = 1;
+}
+
+message GreetingResponse {
+    string response_text = 1;
+}
+
+service GreetingService {
+    rpc Greet (GreetingRequest) returns (GreetingResponse);
+}
