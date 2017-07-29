@@ -48,7 +48,7 @@ public class GreetingClient {
   }
 
   public static void main(String[] args) throws IOException, InterruptedException {
-    final GreetingClient client = new GreetingClient("localhost",5000);
+    final GreetingClient client = new GreetingClient("localhost",5001);
     for(int i=0;i<100;++i) {
       client.greet("Adi" + i);
     }

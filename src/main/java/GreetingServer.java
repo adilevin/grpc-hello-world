@@ -17,7 +17,7 @@ public class GreetingServer {
   private Server server;
 
   private void start() throws IOException {
-    int port = 5000;
+    int port = 5001;
     logger.info("Starting server - listening on port " + port);
     server = ServerBuilder.forPort(port)
             .addService(new GreetingServerImpl())
