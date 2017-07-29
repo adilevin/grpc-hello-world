@@ -17,7 +17,7 @@ class GreetingClient(object):
         return resp.response_text
 
 if __name__=="__main__":
-    client = GreetingClient('localhost:5000')
+    client = GreetingClient('localhost:5001')
     for name in ["Adi", "Noam", "Yael"]:
         print client.greet(name)
 
