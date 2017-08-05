@@ -104,5 +104,13 @@ Add the following to your `pom.xml`:
         </plugins>
     </build>
 
+#### C++ on Windows
+
+I'm still struggling with this one. I followed the [instructions from grpc for building grpc using CMake](https://github.com/grpc/grpc/blob/master/INSTALL.md), and this worked well, creating libraries and executables for "Debug Win32" configuration using VS2015. Part of those executables include the grpc C++ plugin for protoc, which is needed when generating the grpc code from .proto file. I did this by running [src/main/cpp/HelloWorld/HellowWorld/protoc.bat]([https://github.com/adilevin/grpc-hello-world/blob/master/src/main/cpp/HelloWorld/HellowWorld/protoc.bat).
+
+I need to work complete the client code and make it compile and run...
+
+
+
 
 
