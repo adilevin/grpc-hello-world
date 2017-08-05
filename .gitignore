@@ -23,3 +23,6 @@ hs_err_pid*
 .idea/*
 target/
 *.pyc
+src/main/csharp/HelloWorld/HelloWorld/bin/*
+src/main/csharp/HelloWorld/HelloWorld/obj*
+src/main/csharp/HelloWorld/packages/*
