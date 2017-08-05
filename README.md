@@ -21,7 +21,7 @@ A basic grpc demonstration, including a Java server, and client implementations 
 
 1. Running the RPC server on port 5001
 
-    - Java: Execute [GreetingServer.java](https://github.com/adilevin/grpc-hello-world/blob/master/src/main/java/GreetingServer.java) is a Java RPC server.
+    - Java: Execute [GreetingServer.java](https://github.com/adilevin/grpc-hello-world/blob/master/src/main/java/GreetingServer.java)
 
 1. Running the client
 
